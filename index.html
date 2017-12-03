@@ -1,39 +1,81 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>My test page</title>
-        <link href="styles/style.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Include Font Awesome icons -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" crossorigin="anonymous">
+        
+        <!-- Include Bootstrap 3.3.7 framework -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <title>Khalid Peer - Software Developer</title>
     </head>
     <body>
         
-        <img width="250px" src="images/robot.jpg" alt="A boxy green humanoid robot used in classic movies">
+        <div class="container-fluid">
+            
+            <h1 class="text-center">Khalid Peer</h1>
+            <p class="lead text-center">Junior Software Engineer with a passion for mobile and backend development</p>
+
+            <h2>Social</h2>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://github.com/GotoCode" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://linkedin.com/in/syed-peer" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://codepen.io/GotoCode" target="_blank"><i class="fa fa-codepen"></i> CodePen</a>
+                </div>
+            </div>
+
+            <h2>Skills</h2>
+
+            <ul class="list-inline">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C/C++</li>
+                <li>HTML &amp; CSS</li>
+                <li>SQL</li>
+            </ul>
+
+            <h2>Projects</h2>
+
+            <ul class="list-unstyled">
+                <li>FileStack DFS</li>
+                <ul>
+                    <li>Implemented a simple distributed file system that allows users to upload, download, and edit files stored on a remote cluster of Linux machines</li>
+                    <li>Both the client- and server-side code were written using <strong>Java</strong> and the <strong>Sockets API</strong></li>
+                </ul>
+                <li>Iris Classifier</li>
+                <ul>
+                    <li>Coded up Bayesian- and Decision Trees-based classifiers to automatically categorize different species of Iris plants (in the UCI Iris dataset) using machine learning</li>
+                    <li>Both the learning and cross-validation algorithms were written from scratch in <strong>Python</strong></li>
+                </ul>
+                <li>Voice Changer (iOS)</li>
+                <ul>
+                    <li>Developed a native mobile app that enables people to record their voices and play them back while applying various audio filters and sound effects</li>
+                    <li>Implemented the core app logic using <strong>Swift</strong> and <strong>AudioKit</strong></li>
+                    <li>Designed an "adaptive" user interface using <strong>InterfaceBuilder</strong> and <strong>AutoLayout</strong> constraints</li>
+                </ul>
+            </ul>
+
+            <h2>Interests</h2>
+
+            <ul>
+                <li>Python Programming</li>
+                <li>Fiction Novels</li>
+                <li>Learning New Stuff</li>
+            </ul>
+            
+        </div>
         
-        <h1>Robots</h1>
-        
-        <p>
-            A <strong>robot</strong> is a machine capable of of performing complex tasks autonomously (or semi-autonomously). In fact, the tasks that a robot performs will largely determine its overall shape and physical construction. The branch of engineering which deals with the design, construction, and programming of robots is called <strong>robotics</strong>. Although robotics itself is only a couple of decades old, the idea of programmable machines goes back to ancient times, with animated statues and automata, used primarily for entertainment.
-        </p>
-        
-        <p>
-            The term robot itself was first coined in a 1920 play by the Czech writer <strong>Karel Capek</strong>. Following the development of industrial processes robots were designed and built to automate otherwise dangerous or physically demanding tasks. The rising use of robotics in industry has rapidly displaced many blue-collar workers and has led to concern regarding the role that robotics may play in future economies.
-        </p>
-        
-        <p>Some areas where robots are used:</p>
-        
-        <ul>
-            <li>Medicine</li>
-            <li>Manufacturing</li>
-            <li>Research</li>
-            <li>etc.</li>
-        </ul>
-        
-        <a href="https://en.wikipedia.org/wiki/History_of_robots">History of Robotics</a>
-        
-        <button>Change user</button>
-        
-        <script src="scripts/main.js"></script>
+        <!-- micro footer text -->
+        <div class="text-center">
+            <small>Crafted with <i style="color: red;" class="fa fa-heart"></i> by <b>GotoCode</b></small>
+        </div>
         
     </body>
 </html>
